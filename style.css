@@ -1,0 +1,103 @@
+main{
+    background-color:grey;
+    text-align: center;
+}
+
+#navbar,ul{
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    background-color: chartreuse;
+    z-index: 10;
+    padding: 0px;
+    margin: 0px;
+    padding-inline-start: 0px;
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    right: 8px;
+    left:8px;
+}
+
+#content{
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.nav-link,li{
+    background-color: aqua;
+    display: inline-flex;
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    width: fit-content;
+}
+
+#welcome-section,#projects,#contact{
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#welcome-section{
+    background-color: black;
+    color: goldenrod;
+}
+
+#projects{
+    background-color: coral;
+}
+
+#contact{
+    background-color: darkgoldenrod;
+}
+
+#welcome-section>h2{
+    position: relative;
+    top: 50%;
+}
+
+div.project-tile{
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin:10px;
+    border: 5px solid black;
+    display: inline-block;
+    background-color: yellow;
+    border-radius: 5px;
+    border-width: 3px;
+    position: relative;
+    top: 50%;
+}
+
+.tile-link,a:link,a:visited,.profile-link{
+    text-decoration:none;
+}
+
+ul,li{
+    text-emphasis: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#home{
+    position: relative;
+    top: 50%;
+}
+
+.profile-link{
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: 50%;
+}
+
+@media (min-width:200px){
+    #navbar{
+        border-color: black;
+        background-color: blue;
+    }
+}
